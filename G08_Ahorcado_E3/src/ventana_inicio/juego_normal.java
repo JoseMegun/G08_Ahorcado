@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ventana_inicio;
 
 import java.awt.Color;
@@ -15,10 +10,6 @@ import javax.swing.JButton;
 import javax.swing.JColorChooser;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Casa
- */
 public class juego_normal extends javax.swing.JFrame {
     
      public ImageIcon imgs[];
@@ -831,7 +822,7 @@ public class juego_normal extends javax.swing.JFrame {
     private void btnSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalirActionPerformed
       if (JOptionPane.showConfirmDialog(rootPane, "¿Estas seguro de querer regresar al menu principal?\n Se perdera todo su progreso..",
                 "Ahorcado", JOptionPane.YES_NO_OPTION, JOptionPane.ERROR_MESSAGE) == JOptionPane.YES_OPTION)
-        {ini i=new ini();
+        {inicio i=new inicio();
         i.setVisible(true);
         this.setVisible(false);
         }
